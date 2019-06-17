@@ -1,0 +1,9 @@
+1, Создание локального репозитория :
+cd test
+git init
+2. Добавляем файл в staging area:
+git add . или git add qa.txt
+3. Фиксируем:
+commit -m "Commit title"
+4. Отправляем в удаленный репозиторий:
+git push origin master
