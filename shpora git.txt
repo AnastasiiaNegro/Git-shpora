@@ -1,15 +1,15 @@
-1. Создание локального репозитория :
+1. Create a new repo :
 cd test
 git init
-2. Добавляем файл в staging area:
+2. Add a file in the staging area:
 git add . или git add qa.txt
-3. Фиксируем:
+3. Fix:
 commit -m "Commit title"
-4. Отправляем в удаленный репозиторий:
+4. Send to a repo:
 git push origin master
 ______________________________________
 
-Вносим изменения в удаленный репозиторий:
+Add some changes in a repo:
 1. cd test
 2. git clone  https://github.com/AnastasiiaNegro/NameOfRepo.git
 3. cd repo
