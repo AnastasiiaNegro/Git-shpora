@@ -1,4 +1,4 @@
-1, Создание локального репозитория :
+1. Создание локального репозитория :
 cd test
 git init
 2. Добавляем файл в staging area:
@@ -7,3 +7,14 @@ git add . или git add qa.txt
 commit -m "Commit title"
 4. Отправляем в удаленный репозиторий:
 git push origin master
+______________________________________
+
+Вносим изменения в удаленный репозиторий:
+1. cd test
+2. git clone  https://github.com/AnastasiiaNegro/NameOfRepo.git
+3. cd repo
+// 4. git remote -v
+5. git add . || qa.txt
+6. git commit -m "comment"
+7. git push origin master
+
