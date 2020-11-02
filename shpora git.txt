@@ -2,7 +2,7 @@
 cd test
 git init
 2. Add a file in the staging area:
-git add . или git add qa.txt
+git add . ГЁГ«ГЁ git add qa.txt
 3. Fix:
 commit -m "Commit title"
 4. Send to a repo:
@@ -17,4 +17,6 @@ Add some changes in a repo:
 5. git add . || qa.txt
 6. git commit -m "comment"
 7. git push origin master
-
+______________________________________
+git pull = git fetch + git merge
+git pull origin master
