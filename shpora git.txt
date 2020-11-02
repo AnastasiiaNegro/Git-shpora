@@ -2,7 +2,7 @@
 cd test
 git init
 2. Add a file in the staging area:
-git add . èëè git add qa.txt
+git add . or git add qa.txt
 3. Fix:
 commit -m "Commit title"
 4. Send to a repo:
